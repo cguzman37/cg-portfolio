@@ -1,22 +1,24 @@
 import React from 'react';
 
+
 function Footer(){
     return (
         <footer>
+            <div id = "footer">
         <article id="contact-me">
             <h2>Contact Me</h2>
         </article>
         <section class="contact-links">
             <ul>
-                <li>773.787.62532</li>
-                <li>cynthia.guzman.37@gmail.com</li>
-                <li>GitHub</li>
-                <li>Twitter</li>
-                <li>Spotify</li>
+                <li class ="foot">cynthia.guzman.37@gmail.com</li>
+                <a id="linkedIn-c" href="https://www.linkedin.com/in/cynthia-g-11b198127"><li>LinkedIn</li></a>
             </ul>
+    
         </section>
+        </div>
+      
     </footer>  
-    )
+    );
     
 }
 

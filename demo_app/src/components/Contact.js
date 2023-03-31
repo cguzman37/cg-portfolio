@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './css/Contact.css';
 function Contact() {
 
   const [name, setName] = useState('');
@@ -36,7 +36,7 @@ function Contact() {
           <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
         </div>
       </div>
-      <button type="button" className="btn btn-primary" onClick={handleSubmit}>Submit</button>
+      <button type="button" className="btn btn-success" onClick={handleSubmit}>Submit</button>
     </div>
   )
 }

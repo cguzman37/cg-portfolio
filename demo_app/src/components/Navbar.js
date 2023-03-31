@@ -29,9 +29,10 @@ function Navbar(){
     }
   };
     return (
+      <div>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Cynthia Guzman</a>
+        <a class="navbar-brand" href="/home">Cynthia Guzman</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,26 +46,16 @@ function Navbar(){
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/cguzman37">Github</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Menu
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">About Me</a></li>
-                <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                <li><a class="dropdown-item" href="#">Resume</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Contact Me</a></li>
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-              </ul>
-            </li>
           </ul>
         </div>
       </div>
-      <div className="container-fluid">
-        {renderComponent()}
-      </div>
+     
     </nav>
+
+     <div className="container-fluid">
+     {renderComponent()}
+   </div>
+   </div>
 
 );
 }
