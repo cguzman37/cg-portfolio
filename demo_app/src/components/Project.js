@@ -2,7 +2,7 @@ import React from 'react';
 import './css/Project.css';
 import read from '../images/readme.png';
 import open from '../images/open-library.png';
-import note from '../images/note-taker.png';
+import game from '../images/gaming-geeks.png';
 import svg from '../images/svg-logo.png';
 import shop from '../images/shopping.png';
 import dash from '../images/weatherDash.png';
@@ -13,10 +13,10 @@ function Project() {
             <div class="row pad">
                 <div class="col">
                     <div class="card" style={{ width: '18rem' }}>
-                    <a href="https://github.com/cguzman37/express.js-note-taker">
-                        <img src={note} class="card-img-top"  alt="placeholder image"></img></a>
+                    <a href="https://blooming-lake-18705.herokuapp.com/">
+                        <img src={game} class="card-img-top"  alt="placeholder image"></img></a>
                         <div class="card-body">
-                            <p class="card-text">Note Taker</p>
+                            <p class="card-text">Gaming Geeks</p>
                         </div>
                     </div>
                 </div>
